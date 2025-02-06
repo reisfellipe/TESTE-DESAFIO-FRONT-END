@@ -1,0 +1,21 @@
+@import url('./variables.css');
+
+.top-header{
+    background-color: var(--black);
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.top-header p {
+    color: var(--white);
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+.bottom-header {
+    background-color: var(--dark-purple);
+    height:40px;
+}
