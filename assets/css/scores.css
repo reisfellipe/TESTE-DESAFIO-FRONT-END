@@ -15,6 +15,12 @@
     font-family: var(--fonte-titulo);
 }
 
+.scores h2 span {
+    background: linear-gradient(90deg, rgb(143, 65, 194) 0%, rgb(164, 24, 141) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .scores .score-display{
     display: flex;
     flex-direction: row;
@@ -42,6 +48,7 @@
     font-family: var(--fonte-texto);
     font-size: var(--size-text);
     font-weight: bold;
+    text-align: center;
 
 }
 

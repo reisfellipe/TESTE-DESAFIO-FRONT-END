@@ -26,6 +26,12 @@
     margin-bottom: 50px;
 }
 
+.about-us  .about-texts h2 span{
+    background: linear-gradient(90deg, rgb(143, 65, 194) 0%, rgb(164, 24, 141) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .about-us .about-texts p {
     color: var(--white);
     font-size: var(--size-text);
@@ -112,6 +118,7 @@
         margin-bottom: 30px;
         text-align: center;
     }
+    
 
     .about-us .about-texts p {
         max-width: 100%;
