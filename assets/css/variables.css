@@ -8,6 +8,14 @@
     --white:#fff;
     --off-white: #fff;
 
+    --gradient-content: rgb(138,29,71);
+    background: linear-gradient(90deg, rgba(138,29,71,1) 0%, rgba(98,4,158,1) 100%);
+
+    --gradient-background:linear-gradient(90deg, rgba(98,4,158,1) 0%, rgba(120,18,110,1) 45%, rgba(98,4,158,1) 100%);
+
     --fonte-titulo: 'Quicksand', sans-serif;
     --fonte-texto: 'Poppins', sans-serif;
+
+    --size-text: 20px;
+    --size-title: 2.5rem;
 }
