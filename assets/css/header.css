@@ -85,7 +85,18 @@
 }
 
 @media (max-width:999px) {
-    .top-header p {
-        font-size: 14px;
+    .top-header{
+        padding: 0 1rem;
+    
     }
+    
+    .top-header p {
+        color: var(--white);
+        margin: 0 10px;
+        font-weight: 300;
+    }
+    .bottom-header {
+        padding:0 2rem;
+    }
+    
 }

@@ -33,8 +33,8 @@
     -webkit-background-clip: text; 
     color: transparent;  
     font-weight: bold;
-    font-family: var(--fonte-texto);
-    font-size: var(--size-title);
+    font-family: var(--fonte-titulo);
+    font-size: 4rem;
     text-align: start;
 }
 
@@ -52,6 +52,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        padding-top: 1rem;
     }
     
     .scores h2 {
@@ -82,17 +83,12 @@
 
 @media (max-width: 768px) {
     .scores{
-        height: 900px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+        padding-top: 2rem;
     }
     
     .scores h2 {
         text-align: center;
-        width: 60%;
+        min-width: 75%;
         align-items: center;
     }
     

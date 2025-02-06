@@ -27,3 +27,9 @@ img {
     background-position: 0% 50%;
 }
 }
+
+.divisor {
+    height: 10px;
+    background: rgb(50,0,80);
+    background: linear-gradient(90deg, rgba(50,0,80,1) 0%, rgba(120,60,157,1) 48%, rgba(50,0,80,1) 100%);
+}
