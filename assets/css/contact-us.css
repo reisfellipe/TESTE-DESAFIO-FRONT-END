@@ -1,0 +1,110 @@
+
+.contat-us {
+    padding: 3rem 0;
+}
+
+.container {
+    max-width: 600px;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.card {
+    flex: 1;
+    border: solid 2px var(--purple);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow:  0 0 34px 16px rgb(0 0 0 / 19%);;
+}
+
+
+.card h2 {
+    font-size: 3rem;
+    font-family: var(--fonte-titulo);
+    margin-bottom: 20px;    
+    background: rgb(64,20,92);
+    background: linear-gradient(90deg, rgb(138, 49, 194) 0%, rgb(186, 35, 93) 100%);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+.field {
+    font-family: var(--fonte-texto);
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #ffffff31;
+    transition: all 0.3s ease;
+
+}
+
+.field:focus {
+    border-color: #cd2fb5;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+    outline: none;
+}
+
+label{
+    color: var(--white);
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+
+}
+
+textarea.field {
+    height: 150px;
+    resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: rgba(242, 242, 242, 0.879);
+}
+
+/* Estilizando o botão de envio */
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: var(--purple);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: All .5s;
+}
+
+button:hover {
+    background: rgb(64,20,92);
+    background: linear-gradient(90deg, rgba(64,20,92,1) 0%, rgba(110,0,98,1) 100%);
+
+}
+
+@media (max-width: 768px) {
+.container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    flex: none;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.card h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+}

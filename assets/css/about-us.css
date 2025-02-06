@@ -128,21 +128,20 @@
     }
 
     .slogan-content{
-        height: 66vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
-        margin: 0 0 3rem 0;
     }
 
     .slogan-content h3{
         font-family: var(--fonte-titulo);
         text-align: center;
-        font-size: var(--size-title);
+        font-size: 2rem;
         font-weight: 500;
         font-style: italic;
-        width: 70%;
+        min-width: 75%;
         background: rgb(138,29,71);
         background: linear-gradient(90deg, rgb(143, 65, 194) 0%, rgb(164, 24, 141) 100%);
         -webkit-background-clip: text;

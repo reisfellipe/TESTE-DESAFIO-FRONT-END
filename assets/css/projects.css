@@ -132,6 +132,7 @@
     .projects .project-display .product {
         width: 45%;
         margin: 20px;
+        height: 100%;
     }
 
     .projects .project-display .product img {
@@ -170,7 +171,7 @@
 
     .projects .project-display .product img {
         width: 100%;
-        height: 400px; 
+        height: 250px; 
     }
 
     .projects .project-display .product p.titulo-projeto {
