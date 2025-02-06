@@ -1,22 +1,25 @@
 @import url('./variables.css');
 
 .top-header{
-    background-color: var(--purple);
+    background-color: var(--dark-purple);
     height: 30px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    padding: 0 5.6rem;
 
 }
 
 .top-header p {
     color: var(--white);
     margin: 0 10px;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: var(--fonte-titulo);
 }
 
 .bottom-header {
-    background-color: var(--dark-purple);
+    background: rgb(42,14,60);
+    background: linear-gradient(90deg, rgba(42,14,60,1) 0%, rgb(56, 16, 117) 48%, rgba(42,14,60,1) 100%);
     height:60px;
     display: flex;
     justify-content: space-between;
@@ -27,22 +30,53 @@
 
 
 .bottom-header nav .nav-list {
-    list-style: none;
+    list-style-type: none;
     display: flex;
+    margin-bottom: 0;
 
 }
 
 .bottom-header nav .nav-list li a {
+    display: block;
     text-decoration: none;
     color: var(--white);
     font-size: 18px;
-    font-weight: 500;
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
     margin: 0 5px;
     padding: 10px;
     transition: all .5s;
 }
 
 .bottom-header nav .nav-list li a:hover{
-    color: var(--light-green);
-    letter-spacing: 1.5px;
+    scale: 1.1;
+    background-image: linear-gradient(90deg, rgb(145, 64, 198) 0%, rgb(215, 62, 75) 100%); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+
+.bottom-header nav .nav-list .drop-hover{
+    position: relative;
+}
+
+.bottom-header nav .nav-list .drop-hover:hover .dropping-down{
+    height: 240px;
+    width: 180px;
+}
+
+.bottom-header nav .nav-list .drop-hover .dropping-down {
+    position: absolute;
+    top: 60px;
+    background-color: var(--dark-purple);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: all .2s;
+    z-index: 1;
+}
+
+
+.bottom-header nav .nav-list .drop-hover .dropping-down a{
+    width: 100%;
+    font-size: 17px;
 }
