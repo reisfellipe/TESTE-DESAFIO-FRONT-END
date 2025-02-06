@@ -41,6 +41,7 @@
 .scores .score-display .score p{
     font-family: var(--fonte-texto);
     font-size: var(--size-text);
+    font-weight: bold;
 
 }
 
