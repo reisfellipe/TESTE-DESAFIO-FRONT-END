@@ -1,11 +1,13 @@
 .scores{
     width: 100%;
-    height: 350px;
+    height: 450px;
     background-color: var(--dark-purple);
     color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
+    margin: 7rem 0;
 }
 
 .scores h2 {
@@ -42,31 +44,79 @@
 
 }
 
-@media (max-width: 768px) {
-    .scores h2 {
-        font-size: 1.8rem; 
+@media (max-width: 1200px) {
+    .scores{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 3rem 0;
     }
-
-    .scores .score-display {
-        flex-direction: column; 
+    
+    .scores h2 {
+        text-align: center;
+        width: 60%;
         align-items: center;
     }
-
-    .scores .score-display .score {
-        margin: 1rem; 
-        flex: 1 1 100%; 
+    
+    .scores .score-display{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
     }
 
-    .scores .score-display .score h3 {
-        font-size: 1.5rem; 
+    .scores .score-display .score{
+        margin: 3rem;
     }
-
-    .scores .score-display .score p {
-        font-size: 1rem; 
+    
+    
+    .scores .score-display .score h3{
+        font-size: 4rem;
+        font-weight: bold;
     }
 }
 
-/* Para dispositivos muito pequenos (max-width: 480px) */
+@media (max-width: 768px) {
+    .scores{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 7rem 0;
+    }
+    
+    .scores h2 {
+        text-align: center;
+        width: 60%;
+        align-items: center;
+    }
+    
+    .scores .score-display{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .scores .score-display .score{
+        margin: 3rem;
+    }
+    
+    
+    .scores .score-display .score h3{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    
+}
+
 @media (max-width: 480px) {
     .scores h2 {
         font-size: 1.5rem; 
