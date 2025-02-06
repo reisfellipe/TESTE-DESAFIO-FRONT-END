@@ -1,7 +1,7 @@
 @import url('./variables.css');
 
 .top-header{
-    background-color: var(--black);
+    background-color: var(--purple);
     height: 30px;
     display: flex;
     flex-direction: row-reverse;
@@ -17,5 +17,32 @@
 
 .bottom-header {
     background-color: var(--dark-purple);
-    height:40px;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:0 5rem;
+}
+
+
+.bottom-header nav .nav-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.bottom-header nav .nav-list li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 5px;
+    padding: 10px;
+    transition: all .5s;
+}
+
+.bottom-header nav .nav-list li a:hover{
+    color: var(--light-green);
+    letter-spacing: 1.5px;
 }

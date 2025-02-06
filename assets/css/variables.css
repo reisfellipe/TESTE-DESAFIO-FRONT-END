@@ -1,11 +1,12 @@
 :root {
     --purple: #582C66;
-    --dark-purple: #272329;
-    --black: #07031C;
-    --off-white: #fff;
-    --white:#fff;
+    --dark-purple: #120c16;
     --dark-green: #0BA207;
     --light-green:#2BF427;
+    
+    --black: #000000;
+    --white:#fff;
+    --off-white: #fff;
 
     --fonte-titulo: 'Quicksand', sans-serif;
     --fonte-texto: 'Poppins', sans-serif;
