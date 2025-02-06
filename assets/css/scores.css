@@ -29,12 +29,13 @@
 
 .scores .score-display .score h3{
     background: rgb(136,66,180);
-    background: linear-gradient(90deg, rgba(136,66,180,1) 10%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(136,66,180,1) 10%, rgba(0, 0, 0, 0.146) 100%);
     -webkit-background-clip: text; 
     color: transparent;  
     font-weight: bold;
     font-family: var(--fonte-texto);
     font-size: var(--size-title);
+    text-align: start;
 }
 
 .scores .score-display .score p{
@@ -51,7 +52,6 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        margin: 3rem 0;
     }
     
     .scores h2 {
@@ -76,6 +76,7 @@
     .scores .score-display .score h3{
         font-size: 4rem;
         font-weight: bold;
+        text-align: center;
     }
 }
 
@@ -87,7 +88,6 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        margin: 7rem 0;
     }
     
     .scores h2 {
@@ -112,6 +112,7 @@
     .scores .score-display .score h3{
         font-size: 4rem;
         font-weight: bold;
+        text-align: center;
     }
     
 }
