@@ -84,3 +84,9 @@
     width: 100%;
     font-size: 17px;
 }
+
+@media (max-width:999px) {
+    .top-header p {
+        font-size: 14px;
+    }
+}
