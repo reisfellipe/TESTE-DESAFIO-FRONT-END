@@ -16,8 +16,8 @@ class MobileNavbar {
     }
 
     handleClick(){
-        this.navList.classList.toggle(this.activeClass);
-        this.mobileMenu.classList.toggle(this.activeClass);
+        this.navList.classList.toggle(this.activeClass);  // Alterna a visibilidade do menu
+        this.mobileMenu.classList.toggle(this.activeClass);  // Alterna o estado do ícone de menu-burguer
         this.animateLinks();
     }
 

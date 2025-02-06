@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background: rgb(29,12,28);
     background: linear-gradient(90deg, rgba(29,12,28,1) 0%, rgb(53, 11, 79) 45%, rgba(29,12,28,1) 100%);
     background-size: 500% 500%;
     animation: gradientAnimation 20s ease infinite;
-
+    overflow-x: hidden;
 }
 
 img {

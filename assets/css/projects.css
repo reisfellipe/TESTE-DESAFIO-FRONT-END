@@ -152,9 +152,9 @@
     }
 
     .projects h2 {
-        font-size: 2rem;
-        width: 75%;
-        margin-bottom: 2.5rem;
+        font-size: 1.7rem;
+        width: 73%;
+        margin: 2.5rem 0;
     }
 
     .projects .project-display {

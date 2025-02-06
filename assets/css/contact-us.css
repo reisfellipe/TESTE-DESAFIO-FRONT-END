@@ -16,7 +16,7 @@
 
 .card {
     flex: 1;
-    border: solid 2px var(--purple);
+    border: solid 3px var(--purple);
     padding: 40px;
     border-radius: 30px;
     box-shadow:  0 0 34px 16px rgb(0 0 0 / 19%);;

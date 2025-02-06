@@ -91,7 +91,9 @@
 
 @media (max-width: 768px) {
     .scores{
-        padding-top: 2rem;
+        padding: 2.5rem 0;
+        height: 100%;
+
     }
     
     .scores h2 {
@@ -130,10 +132,12 @@
         margin: 0.5rem; 
     }
     .scores .score-display .score h3 {
-        font-size: 1.3rem; 
+        font-size: 3.5rem; 
     }
 
     .scores .score-display .score p {
-        font-size: 0.9rem; 
+        font-size: 1.2rem;
+        text-align: center;
+        width: 70vw;
     }
 }

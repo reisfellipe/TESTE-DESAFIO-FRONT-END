@@ -32,6 +32,7 @@
     list-style-type: none;
     display: flex;
     margin-bottom: 0;
+    flex-wrap: nowrap;  /* Impede que os itens quebrem para a próxima linha */
 
 }
 
@@ -85,6 +86,11 @@
 }
 
 @media (max-width:999px) {
+
+    .bottom-header nav .nav-list{
+        position: fixed;
+    }
+
     .top-header{
         padding: 0 1rem;
     
