@@ -124,8 +124,9 @@
 }
 
 @media (max-width: 480px) {
+
     .scores h2 {
-        font-size: 1.5rem; 
+        font-size: 1.8rem; 
     }
 
     .scores .score-display .score {

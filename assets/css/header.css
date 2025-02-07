@@ -97,7 +97,7 @@
     }
     
     .top-header p {
-        color: var(--white);
+        color: white;
         margin: 0 10px;
         font-weight: 300;
     }
