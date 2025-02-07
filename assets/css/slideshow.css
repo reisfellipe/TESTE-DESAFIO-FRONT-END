@@ -29,7 +29,7 @@ h1 {
     color: var(--white);
     font-family: var(--fonte-titulo);
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     z-index: 1;
     max-width: 70%; 
 }
