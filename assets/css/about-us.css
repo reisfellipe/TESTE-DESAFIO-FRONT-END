@@ -13,6 +13,7 @@
     width: 30%;
     height: 100%;
     border-radius: 20px;
+    animation: flutuar 3s ease-in-out infinite;
 }
 
 .about-us .about-texts{
@@ -70,6 +71,17 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+@keyframes flutuar {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
 
 @media (max-width:1370px){
     .about-us {
@@ -114,7 +126,7 @@
     .about-us .about-texts h2 {
         margin-bottom: 30px;
         text-align: center;
-        font-size: 2.4rem;
+        font-size: 2.5rem;
     }
     
 
