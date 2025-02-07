@@ -7,7 +7,8 @@ footer{
 footer .top-footer{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding: 2rem 12rem 0;
 
 }
 
@@ -28,24 +29,29 @@ footer a {
     font-size: var(--size-text);
     font-family: var(--fonte-texto);
     color: var(--white);
-    transition: all .4s;
+    transition: all .3s;
 }
 
-footer .top-footer{
-    padding: 0 3rem;
+footer a:hover{
+    background: rgb(138,29,71);
+    background: linear-gradient(90deg, rgb(143, 65, 194) 0%, rgb(164, 24, 141) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
 }
 
-footer .top-footer .f1 p{
-    justify-content: flex-start;
 
+footer .top-footer .f1 .f-slogan{
+    justify-content: flex-start; 
+    font-family: var(--fonte-titulo);
+    padding-left: 30px;
+    
 }
+
 footer .top-footer .f-content nav ul li{
     margin: 10px 0;
 }
 
-footer .top-footer .f-content nav ul li a:hover {
-    transform: scale(1.2);
-}
 
 footer .top-footer p {
     color: var(--white);
@@ -78,24 +84,41 @@ footer .f-content a {
 footer .bottom-footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     color: var(--white);
     font-family: var(--fonte-texto);
-    padding: 20px 0;
+    padding: 20px 3rem;
 }
 
 footer .bottom-footer p{
-    padding-right: 5rem;
     text-align: center;
     font-family: var(--fonte-titulo);
 }
 
 footer .bottom-footer p span{
+    font-size: 18px;
     background: rgb(138,29,71);
     background: linear-gradient(90deg, rgb(143, 65, 194) 0%, rgb(164, 24, 141) 100%);
     -webkit-background-clip: text;
     color: transparent;
     font-weight: bold;
+}
+
+@media (max-width:1250px) {
+    footer .top-footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 2rem 2rem 0;
+    
+    }
+
+    footer .top-footer .f1 .f-slogan{
+        justify-content: flex-start; 
+        font-family: var(--fonte-titulo);
+        padding-left: 0;
+        
+    }
 }
 
 @media (max-width: 900px) {
@@ -105,5 +128,19 @@ footer .bottom-footer p span{
         align-items: center;
         justify-content: center;
         padding-left: 2rem;
+    }
+
+    footer .bottom-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    footer .bottom-footer p{
+        width: 80vw;
+
+        text-align: center;
+        font-family: var(--fonte-titulo);
     }
 }
