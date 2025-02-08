@@ -57,7 +57,7 @@
 
 .bottom-header nav .nav-list .drop-hover{
     position: relative;
-    z-index: 1;
+    z-index: 5;
 }
 
 .bottom-header nav .nav-list .drop-hover:hover .dropping-down{
